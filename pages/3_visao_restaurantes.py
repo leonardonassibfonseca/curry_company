@@ -172,7 +172,7 @@ def limpar_codigo(df):
 
 #----------------------------------Inicio da estrutura lógica do código-----------------------------------
 #Importando o dataset
-df1 = pd.read_csv('../dataset/train.csv')
+df1 = pd.read_csv('/dataset/train.csv')
 
 #Fazendo uma cópia do arquivo original
 df = df1.copy()
